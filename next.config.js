@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   i18n: {
     locales: ['en-US', 'ja-JP', 'zh-CN'],
+    localeDetection: false,
     defaultLocale: 'ja-JP',
     domains: [
       {
